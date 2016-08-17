@@ -1,3 +1,6 @@
 [submodule "openvr_driver_base"]
 	path = openvr_driver_base
 	url = https://github.com/Monospark/openvr_driver_base
+[submodule "driver_base"]
+	path = driver_base
+	url = https://github.com/Monospark/driver_base

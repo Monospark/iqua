@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openvr_driver_base", "openvr_driver_base\openvr_driver_base.vcxproj", "{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "window", "window\window.vcxproj", "{181722AF-3F65-45A6-AE1A-86DD736DA184}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver_emulator", "driver_emulator\driver_emulator.vcxproj", "{7CB6E146-9D77-4A74-B2BE-847B00766020}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF} = {D7B8A95B-6862-48ED-9E35-4D547AAD28EF}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver_base", "driver_base\driver_base.vcxproj", "{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,14 +20,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|Win32.Build.0 = Debug|Win32
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|x64.ActiveCfg = Debug|x64
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|x64.Build.0 = Debug|x64
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|Win32.ActiveCfg = Release|Win32
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|Win32.Build.0 = Release|Win32
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|x64.ActiveCfg = Release|x64
-		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|x64.Build.0 = Release|x64
 		{181722AF-3F65-45A6-AE1A-86DD736DA184}.Debug|Win32.ActiveCfg = Debug|Win32
 		{181722AF-3F65-45A6-AE1A-86DD736DA184}.Debug|Win32.Build.0 = Debug|Win32
 		{181722AF-3F65-45A6-AE1A-86DD736DA184}.Debug|x64.ActiveCfg = Debug|x64
@@ -43,6 +35,14 @@ Global
 		{7CB6E146-9D77-4A74-B2BE-847B00766020}.Release|Win32.ActiveCfg = Release|Win32
 		{7CB6E146-9D77-4A74-B2BE-847B00766020}.Release|Win32.Build.0 = Release|Win32
 		{7CB6E146-9D77-4A74-B2BE-847B00766020}.Release|x64.ActiveCfg = Release|Win32
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|Win32.Build.0 = Debug|Win32
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|x64.ActiveCfg = Debug|x64
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Debug|x64.Build.0 = Debug|x64
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|Win32.ActiveCfg = Release|Win32
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|Win32.Build.0 = Release|Win32
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|x64.ActiveCfg = Release|x64
+		{D7B8A95B-6862-48ED-9E35-4D547AAD28EF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

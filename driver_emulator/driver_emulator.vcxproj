@@ -34,7 +34,7 @@
     <ClInclude Include="include\vre_server_driver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\openvr_driver_base\openvr_driver_base.vcxproj">
+    <ProjectReference Include="..\driver_base\driver_base.vcxproj">
       <Project>{d7b8a95b-6862-48ed-9e35-4d547aad28ef}</Project>
     </ProjectReference>
   </ItemGroup>
