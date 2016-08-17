@@ -1,0 +1,6 @@
+<RCC>
+    <qresource>
+        <file>shader-vs.hlsl</file>
+        <file>shader-ps.hlsl</file>
+    </qresource>
+</RCC>
